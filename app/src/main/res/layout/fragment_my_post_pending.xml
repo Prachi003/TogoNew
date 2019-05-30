@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.togocourier.ui.fragment.customer.MyPostPendingFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mPnPstReclr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        app:layoutManager="LinearLayoutManager" />
+
+    <TextView
+        android:id="@+id/noDataTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/no_pending_post_message"
+        android:fontFamily="@font/montserrat_light"
+        android:gravity="center"
+        android:textColor="@color/new_gray_color"
+        android:textSize="@dimen/textNormalSize"
+        android:visibility="gone" />
+
+</FrameLayout>

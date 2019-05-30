@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textTabSize">@dimen/_9sdp</dimen>
+    <dimen name="item_size">@dimen/_10sdp</dimen>
+    <dimen name="textSmallSize">@dimen/_12sdp</dimen>
+    <dimen name="textNormalSize">@dimen/_14sdp</dimen>
+    <dimen name="textMediamSize">@dimen/_16sdp</dimen>
+    <dimen name="textLeargeSize">@dimen/_18sdp</dimen>
+
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="img_width_height">120dp</dimen>
+    <dimen name="slide_title">30dp</dimen>
+    <dimen name="slide_desc">16dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+</resources>

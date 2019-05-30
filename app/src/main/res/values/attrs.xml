@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SmartTextView">
+        <attr name="justified" format="boolean" />
+        <attr name="android:textAllCaps" />
+        <attr name="android:textStyle" />
+        <attr name="fontName" format="enum">
+            <enum name="thin" value="0" />
+            <enum name="reg" value="1" />
+            <enum name="thick" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CropImageView">
+        <attr name="cropGuidelines">
+            <enum name="off" value="0" />
+            <enum name="onTouch" value="1" />
+            <enum name="on" value="2" />
+        </attr>
+        <attr name="cropScaleType">
+            <enum name="fitCenter" value="0" />
+            <enum name="center" value="1" />
+            <enum name="centerCrop" value="2" />
+            <enum name="centerInside" value="3" />
+        </attr>
+        <attr name="cropShape">
+            <enum name="rectangle" value="0" />
+            <enum name="oval" value="1" />
+        </attr>
+        <attr name="cropAutoZoomEnabled" format="boolean" />
+        <attr name="cropMaxZoom" format="integer" />
+        <attr name="cropMultiTouchEnabled" format="boolean" />
+        <attr name="cropFixAspectRatio" format="boolean" />
+        <attr name="cropAspectRatioX" format="integer" />
+        <attr name="cropAspectRatioY" format="integer" />
+        <attr name="cropInitialCropWindowPaddingRatio" format="float" />
+        <attr name="cropBorderLineThickness" format="dimension" />
+        <attr name="cropBorderLineColor" format="color" />
+        <attr name="cropBorderCornerThickness" format="dimension" />
+        <attr name="cropBorderCornerOffset" format="dimension" />
+        <attr name="cropBorderCornerLength" format="dimension" />
+        <attr name="cropBorderCornerColor" format="color" />
+        <attr name="cropGuidelinesThickness" format="dimension" />
+        <attr name="cropGuidelinesColor" format="color" />
+        <attr name="cropBackgroundColor" format="color" />
+        <attr name="cropSnapRadius" format="dimension" />
+        <attr name="cropTouchRadius" format="dimension" />
+        <attr name="cropShowCropOverlay" format="boolean" />
+        <attr name="cropShowProgressBar" format="boolean" />
+        <attr name="cropMinCropWindowWidth" format="dimension" />
+        <attr name="cropMinCropWindowHeight" format="dimension" />
+        <attr name="cropMinCropResultWidthPX" format="float" />
+        <attr name="cropMinCropResultHeightPX" format="float" />
+        <attr name="cropMaxCropResultWidthPX" format="float" />
+        <attr name="cropMaxCropResultHeightPX" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="CropView">
+        <attr name="cropme_result_width" format="fraction" />
+        <attr name="cropme_result_height" format="fraction" />
+        <attr name="cropme_max_scale" format="integer" />
+        <attr name="cropme_with_border" format="boolean" />
+        <attr name="cropme_background_alpha" format="fraction" />
+    </declare-styleable>
+
+
+    <item name="statusbarutil_fake_status_bar_view" type="id" />
+    <item name="statusbarutil_translucent_view" type="id" />
+
+    <declare-styleable name="AspectRatioImageView">
+        <attr name="ari_aspect" format="enum">
+            <enum name="width" value="0" />
+            <enum name="height" value="1" />
+            <enum name="auto" value="2" />
+        </attr>
+        <attr name="ari_ratio" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="SelectableRoundedImageView">
+        <attr name="sriv_left_top_corner_radius" format="dimension" />
+        <attr name="sriv_right_top_corner_radius" format="dimension" />
+        <attr name="sriv_left_bottom_corner_radius" format="dimension" />
+        <attr name="sriv_right_bottom_corner_radius" format="dimension" />
+        <attr name="sriv_border_width" format="dimension" />
+        <attr name="sriv_border_color" format="color" />
+        <attr name="sriv_oval" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+
+    <declare-styleable name="SignaturePad">
+        <attr name="penMinWidth" format="dimension" />
+        <attr name="penMaxWidth" format="dimension" />
+        <attr name="penColor" format="color" />
+        <attr name="velocityFilterWeight" format="float" />
+        <attr name="clearOnDoubleClick" format="boolean" />
+    </declare-styleable>
+
+
+</resources>

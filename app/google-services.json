@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "864348313428",
+    "firebase_url": "https://devtogo-f4aa2.firebaseio.com",
+    "project_id": "devtogo-f4aa2",
+    "storage_bucket": "devtogo-f4aa2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864348313428:android:c73383d651384396",
+        "android_client_info": {
+          "package_name": "com.togocourier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864348313428-locsnp5h6hfmgkd0t4fl8jtl7vm8ndgt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVXcaAIqRTH2FJ1_O-my6x4dBjX75odAo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

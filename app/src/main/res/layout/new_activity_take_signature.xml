@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/new_app_color">
+
+        <ImageView
+            android:id="@+id/iv_back_sign"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:src="@drawable/new_add_back_ico" />
+
+        <TextView
+            android:id="@+id/title_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/montserrat_medium"
+            android:gravity="center"
+            android:text="@string/signature"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/textMediamSize" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:overScrollMode="never">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <com.togocourier.signaturepad.views.SignaturePad
+                    android:id="@+id/signature_pad"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_380sdp" />
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <TextView
+                       android:id="@+id/clearBtn"
+                       android:layout_width="@dimen/_100sdp"
+                       android:layout_height="@dimen/_35sdp"
+                       android:layout_marginTop="@dimen/_20sdp"
+                       android:layout_marginLeft="@dimen/_30sdp"
+                       android:layout_alignParentLeft="true"
+                       android:background="@drawable/new_continue_btn_bg"
+                       android:fontFamily="@font/poppins_medium"
+                       android:gravity="center"
+                       android:text="@string/clear"
+                       android:textColor="@color/colorWhite"
+                       android:textSize="@dimen/textNormalSize" />
+
+                   <TextView
+                       android:id="@+id/submitSignBtn"
+                       android:layout_width="@dimen/_100sdp"
+                       android:layout_height="@dimen/_35sdp"
+                       android:layout_alignParentRight="true"
+                       android:layout_marginRight="@dimen/_30sdp"
+                       android:layout_marginTop="@dimen/_20sdp"
+                       android:background="@drawable/new_continue_btn_bg"
+                       android:fontFamily="@font/poppins_medium"
+                       android:gravity="center"
+                       android:text="@string/submit"
+                       android:textColor="@color/colorWhite"
+                       android:textSize="@dimen/textNormalSize" />
+
+               </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_20sdp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.togocourier.ui.fragment.courier.MyTaskFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/tabLay"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/pendingBtn"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:background="@drawable/blue_left_round"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="@string/pending"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/textNormalSize" />
+
+        <Button
+            android:id="@+id/completeBtn"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:background="@drawable/white_right_round"
+            android:fontFamily="@font/montserrat_light"
+            android:text="@string/completed"
+            android:textAllCaps="false"
+            android:textColor="@color/new_post_border_color"
+            android:textSize="@dimen/textNormalSize" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/childFragmentPlace"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_5sdp"
+        />
+
+</LinearLayout>

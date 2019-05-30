@@ -1,0 +1,301 @@
+<resources>
+    <string name="app_name">Togo</string>
+
+    <string name="please_wait">Please Wait…</string>
+    <string name="user_type">Select User Type</string>
+    <string name="customer">Customer</string>
+    <string name="courior">Courier</string>
+    <string name="continueBtnTxt">Continue</string>
+    <string name="email_id">Email id</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login_with_facebook">Login With Facebook</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="full_name">Full Name</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="address">Address</string>
+    <string name="upload_id_card">Upload Id Card</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login">Login</string>
+    <string name="text_take_photo">Take Photo</string>
+    <string name="text_chose_gellery">From Gallery</string>
+    <string name="text_add_photo">Add Photo</string>
+    <string name="text_cancel">Cancel</string>
+
+    <string name="new_post">New Post</string>
+    <string name="my_post">My Post</string>
+    <string name="my_task">My Task</string>
+    <string name="notification">Notifications</string>
+    <string name="chat">Chat</string>
+    <string name="profile">My Profile</string>
+    <string name="settings">Settings</string>
+    <string name="term">Terms &amp; Conditions</string>
+    <string name="ratting_app">Review App</string>
+    <string name="add_card">Add Card</string>
+
+    <string name="facebook_app_id">290990368104524</string>
+    <string name="fb_login_protocol_scheme">fb290990368104524</string>
+
+    <string name="gps_not_enable">GPS not enable…</string>
+    <string name="do_you_want_to_enable">GPS is disabled please enable first.</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT >></string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="development_mode">On Development Mode....</string>
+    <string name="pending">Pending</string>
+    <string name="completed">Completed</string>
+    <string name="new_txt">New</string>
+    <string name="you_have_not_added_bank_account_yet_nplease_add">You have not added bank account yet,\nPlease add</string>
+    <string name="you_don_t_have_any_request_yet">You don\'t have any request yet.</string>
+    <string name="update_profile">Profile Updated Successfully</string>
+    <string name="cancel">Cancel</string>
+    <string name="na">N/A</string>
+    <string name="limite_title">Title should be not more than 50 characters</string>
+    <string name="details_limite">Deliver details should be not more than 200 characters</string>
+    <string name="review_limite">Review should be not more than 100 characters</string>
+    <string name="send_email">Send email</string>
+    <string name="you_don_t_have_any_notification_yet">You don\'t have any notification yet</string>
+    <string name="no_review_found">No review found</string>
+    <string name="delete">Delete</string>
+    <string name="delete_chat">Delete Chat</string>
+    <string name="upload_id_card_to_access_further_features">Upload id card to access further features</string>
+    <string name="done">Done</string>
+    <string name="price_you_re_willing_to_pay">Price you\'re willing to pay</string>
+    <string name="please_enter_you_registered_email_id_to_get_password">Please enter you registered email id to get password</string>
+
+
+    <!--New Name Initializations-->
+
+    <!--User Selection Activity-->
+    <string name="new_app_name">Togo Courier</string>
+    <string name="new_dummy_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</string>
+
+    <!--SignIn Activity-->
+    <string name="new_email_id_placeholder">Email Address</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="or">OR</string>
+    <string name="login_with_gmail">Login with Gmail</string>
+
+    <!--Forgot Password Activity-->
+    <string name="forgot_your_password_heading">Forgot Your Password?</string>
+    <string name="send">Send</string>
+    <string name="forgot_password_txt">Please enter your registered email address below to reset your password.</string>
+
+    <!--Home Activity-->
+    <string name="under_development">Under Development</string>
+    <string name="add_post">Add Post</string>
+
+    <!--My Profile-->
+    <string name="update_btn">Update</string>
+
+    <!--Settings-->
+    <string name="logout">Logout</string>
+    <string name="terms_and_condition">Terms and Conditions</string>
+    <string name="about_us">About Us</string>
+
+    <!--Change Password-->
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+
+    <!--Chat History (Messages)-->
+    <string name="messages">Messages</string>
+
+    <!--Alerts-->
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="alertImageException">The file is corrupt &amp; cannot be opened.</string>
+    <string name="alertOutOfMemory">This device doesn\'t have enough space , free up storage space</string>
+
+    <!--Picker text-->
+    <string name="crop_image_activity_title">Crop Image</string>
+    <string name="crop_image_menu_rotate_left">Rotate counter clockwise</string>
+    <string name="crop_image_menu_rotate_right">Rotate</string>
+    <string name="crop_image_menu_crop">Crop</string>
+    <string name="pick_image_intent_chooser_title">Select source</string>
+    <string name="result_image_desc">crop result</string>
+    <string name="pick_image_intent_text">Choose an image</string>
+
+    <!--Add Courier Item-->
+    <!--Upload Item Picture-->
+    <string name="add_courier_item">Add Courier Item</string>
+    <string name="upload_your_item_picture">Upload a picture of your items being delivered (optional)</string>
+    <string name="dummy_add_courier_item_txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
+    <string name="add_picture">Add Picture</string>
+
+    <!--Select Pickup and delivery Address-->
+    <string name="pickup_address">Pickup Address</string>
+    <string name="drop_off_address">Drop off Address</string>
+
+    <!--Enter PickUp and Delivery Details-->
+    <string name="who_receiving_delivery">Who is receiving the delivery?</string>
+    <string name="person_who_wants_to_deliver">Who is sending the delivery?</string>
+    <string name="someone_else">Someone Else</string>
+    <string name="me">Me</string>
+    <string name="someone_present_to_accept_delivery">Do you want to require that someone is present to accept the delivery?</string>
+    <string name="require_a_signature">Require a signature</string>
+    <string name="pickup_before_date_time">Pickup Before Date</string>
+    <string name="delivery_before_date_time">Delivery Before Date</string>
+    <string name="price_willing_to_pay">Price you\'re willing to pay</string>
+    <string name="enter_amount">Enter amount</string>
+    <string name="enter_quantity">Enter quantity</string>
+    <string name="item_quantity">Item Quantity</string>
+
+    <string name="enter_first_name">First Name</string>
+    <string name="enter_last_name">Last Name</string>
+    <string name="enter_contact_number">Contact Number</string>
+
+    <string name="post_created_successfully">Thanks for putting your delivery in you’ll be receiving requests from couriers shortly</string>
+
+    <!--Tip Summary Details-->
+    <string name="confirm">Confirm</string>
+    <string name="person_at_pickup_location">Person At Pickup Location</string>
+    <string name="person_at_delivery_location">Person At Delivery Location</string>
+    <string name="courier_tip">Courier Tip</string>
+    <string name="dollar_5">$5</string>
+    <string name="dollar_4">$4</string>
+    <string name="dollar_3">$3</string>
+    <string name="dollar_2">$2</string>
+    <string name="dollar_1">$1</string>
+    <string name="dollar_0">$0</string>
+    <string name="own_tip">Enter your desired tip amount</string>
+    <string name="amount">Amount</string>
+    <string name="delivery_summary">Delivery Summary</string>
+    <string name="dollar">$</string>
+    <string name="delivery_amount">Delivery Amount</string>
+    <string name="tip">Tip</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="total_delivery_amount">Total Delivery Amount</string>
+    <string name="item_details">Item Details</string>
+    <string name="item_title">Title of item being picked up</string>
+    <string name="item_description">Additional delivery details</string>
+    <string name="item_title_heading">Item Title :</string>
+    <string name="item_description_heading">Additional delivery details :</string>
+    <string name="item_quantity_heading">Quantity :</string>
+    <string name="zero_amount">0.0</string>
+    <string name="price">Price</string>
+
+    <!--Post List-->
+    <string name="status_new">New</string>
+    <string name="years_ago">years ago</string>
+    <string name="year_ago">year ago</string>
+    <string name="months_ago">months ago</string>
+    <string name="month_ago">month ago</string>
+    <string name="weeks_ago">weeks ago</string>
+    <string name="week_ago">week ago</string>
+    <string name="days_ago">days ago</string>
+    <string name="day_ago">day ago</string>
+    <string name="hours_ago">hrs ago</string>
+    <string name="hour_ago">hr ago</string>
+    <string name="minutes_ago">mins ago</string>
+    <string name="minute_ago">min ago</string>
+    <string name="second_ago">sec ago</string>
+    <string name="seconds_ago">secs ago</string>
+    <string name="no_complete_task_message">You don\'t have any completed task</string>
+    <string name="no_complete_post_message">You don\'t have any completed post</string>
+    <string name="no_new_post_messgae">You don\'t have any new post</string>
+    <string name="no_pending_post_message">You don\'t have any pending post</string>
+    <string name="no_pending_task_message">You don\'t have any pending task</string>
+
+    <!--Details-->
+    <string name="details">Details</string>
+    <string name="current_status">Current Status</string>
+    <string name="na_txt">NA</string>
+    <string name="accepted">Accepted</string>
+    <string name="delivered">Delivered</string>
+    <string name="pickup_info">Pickup Between</string>
+    <string name="delivery_info">Deliver Between</string>
+    <string name="received_request">Request Received</string>
+    <string name="change_status">Change Status</string>
+    <string name="item_picked">Item Picked</string>
+    <string name="out_for_delivery">Out for delivery</string>
+    <string name="map">Map</string>
+    <string name="reviews">Reviews</string>
+    <string name="wait_for_review">Wait for Review</string>
+    <string name="assigned_courier">Assigned Courier</string>
+    <string name="give_review">Give Review</string>
+    <string name="write_review">Write Review >></string>
+    <string name="write_review_text">Write Review</string>
+    <string name="view_review">View Review</string>
+    <string name="tip_courier_service">Tip Courier</string>
+    <string name="see_all">See All</string>
+
+    <!--Apply Bid Dialog-->
+    <string name="bid_price">Bid Price</string>
+
+    <!--All Request-->
+    <string name="all_request">All Request</string>
+    <string name="accept">Accept</string>
+
+    <!--Take Signature Dialog-->
+    <string name="signature">Require a Signature</string>
+    <string name="enter_your_signature">Enter your signature</string>
+    <string name="submit">Submit</string>
+    <string name="clear">Clear</string>
+    <string name="no_signature_required_admin">Item delivered by admin. No signature required</string>
+
+    <!--Chat-->
+    <string name="block_user">Block User</string>
+    <string name="limit_chat_count">99+</string>
+    <string name="image">Image</string>
+    <string name="nothing_here">Nothing Here!!!</string>
+    <string name="no_chat_messgae">You don\'t have any chat yet.</string>
+
+    <!--Payment-->
+    <string name="no_card_payment_item">You don\'t have any payment card yet.</string>
+    <string name="add_payment_card">Add Payment Card</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="set">Set</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="debit_card">Debit Card</string>
+    <string name="payment">Payment</string>
+    <string name="payment_help_txt">Please enter your card details for payment</string>
+    <string name="pay_txt">Pay</string>
+    <string name="payment_cards">Payment Cards</string>
+    <string name="new_card_help_txt">Please enter your card details for future use</string>
+    <string name="cardholder_name">Cardholder Name</string>
+    <string name="card_number">Card Number</string>
+    <string name="expiry_date_hint">MM/YY</string>
+    <string name="card_code">Card Code</string>
+    <string name="cvv_hint">CVV</string>
+
+
+    <!--Google Map Key-->
+    <string name="google_maps_key">AIzaSyCJ9QjanZEeNZWQodI_fCttEZABP_6cg_w</string>
+
+    <!--About Us Activity-->
+    <string name="welcome_to">Welcome To</string>
+    <string name="app_name_capital">TOGO</string>
+
+    <!--Courier Payment Commission Dialog-->
+    <string name="ok_btn">OK</string>
+    <string name="your_amount">Your Amount</string>
+    <string name="togo_fee_amount">Togo fee amount</string>
+    <string name="total">Total</string>
+    <string name="delivery_title">Name This Delivery</string>
+    <string name="enter_orders">Enter orders</string>
+    <string name="add_items">Add item</string>
+    <string name="create_post">Create Post</string>
+    <string name="delivery_items">Items Being Delivered</string>
+    <string name="total_delivery_price">Total Delivery price</string>
+    <string name="enter_total_price">Enter total Price</string>
+    <string name="_100">$100</string>
+    <string name="total_delivery_price_n">Total delivery  \n price</string>
+    <string name="apply">Apply</string>
+    <string name="fill_cvv_number_to_access_n_further_features">Fill Cvv number to access \n  further features</string>
+    <string name="fill_mobile_number_to_access_n_further_features">Fill Contact number to access \n  further features</string>
+    <string name="add_account">Add Account</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="update_bank_account">Update  Bank Account</string>
+    <string name="welcome_to_togo_couriers">Welcome to TOGO\n Couriers</string>
+    <string name="unblocj">Unblock User</string>
+
+</resources>

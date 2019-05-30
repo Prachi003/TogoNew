@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2564b0</color>
+    <color name="colorPrimaryDark">#2564b0</color>
+    <color name="colorAccent">#2564b0</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorBtn">#f17204</color>
+    <color name="colorDivider">#c0c0c0</color>
+    <color name="colorTextHint">#626262</color>
+    <color name="colorIdBgStroke">#e5e5e5</color>
+    <color name="colorFbBtn">#303F9F</color>
+    <color name="colorgoogleBtn">#d34836</color>
+    <color name="colorAddPostTextHint">#5195e9</color>
+    <color name="colorGreen">#048124</color>
+    <color name="darker_gray">#aaa</color>
+    <color name="darke_gray">#FF969494</color>
+    <color name="v_gray">#f2f2f2</color>
+    <color name="chat_gray_color">#c5c5c5</color>
+    <color name="opacity">#40000000</color>
+
+
+    <array name="array_dot_active">
+        <item>@color/colorPrimaryDark</item>
+        <item>@color/colorPrimaryDark</item>
+        <item>@color/colorPrimaryDark</item>
+        <item>@color/colorPrimaryDark</item>
+        <item>@color/colorPrimaryDark</item>
+        <item>@color/colorPrimaryDark</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/colorBtn</item>
+        <item>@color/colorBtn</item>
+        <item>@color/colorBtn</item>
+        <item>@color/colorBtn</item>
+        <item>@color/colorBtn</item>
+        <item>@color/colorBtn</item>
+    </array>
+
+
+    <!--New Colors-->
+    <color name="new_app_color">#2564b0</color>
+    <color name="new_light_gray_color">#a5a5a5</color>
+    <color name="new_gray_color">#828282</color>
+
+    <color name="new_sign_in_bg_input_field">#efefef</color>
+    <color name="new_sign_in_bg_input_field_stroke">#d8d8d8</color>
+    <color name="new_sign_in_text_color">#333333</color>
+    <color name="new_sign_in_hint_color">#a1a1a1</color>
+    <color name="new_fb_btn_bg_color">#3b5998</color>
+    <color name="new_gmail_btn_bg_color">#dd4b39</color>
+
+    <color name="new_setting_icon_bg">#b6e8fa</color>
+    <color name="new_setting_icon_stroke_color">#95dffa</color>
+    <color name="new_setting_line_color">#cccccc</color>
+
+    <color name="new_post_border_color">#afafaf</color>
+    <color name="new_chat_other_bg_color">#4b82c5</color>
+    <color name="new_type_message_color">#989898</color>
+    <color name="new_post_item_border_color">#e3e3e3</color>
+
+    <color name="new_add_courier_help_txt_color">#a0a0a0</color>
+    <color name="new_add_picture_txt_color">#b6b6b6</color>
+    <color name="new_enter_amount_txt_color">#b0b0b0</color>
+    <color name="new_add_item_line_color">#c1c1c1</color>
+
+    <color name="new_pickup_delivery_date_tym_color">#979797</color>
+    <color name="new_inactive_dollar_color">#a6a6a6</color>
+
+    <color name="new_detail_enter_price">#7d7d7d</color>
+    <color name="new_accept_color">#17a117</color>
+    <color name="new_cancel_color">#ee2e2e</color>
+
+    <color name="new_active_status_color">#048124</color>
+    <color name="new_status_line_color">#9d9d9d</color>
+
+    <color name="wait_for_review_color">#005c94</color>
+    <color name="write_review_line_color">#a5a5a5</color>
+
+    <color name="courier_review_txt_color">#a4a4a4</color>
+
+</resources>

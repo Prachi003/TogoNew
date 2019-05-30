@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/main_layout"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimaryDark">
+
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_centerVertical="true"
+            android:tint="@color/colorWhite"
+            app:srcCompat="@drawable/ic_new_blue_back_ico"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:id="@+id/ImgBack"
+            android:layout_marginStart="@dimen/_10sdp" />
+
+        <TextView
+            android:id="@+id/title_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:fontFamily="@font/rubik_medium"
+            android:text="@string/add_courier_item"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/textMediamSize" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_15sdp"
+                android:gravity="center"
+                android:fontFamily="@font/rubik_medium"
+                android:text="@string/upload_your_item_picture"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/textNormalSize" />
+
+            <RelativeLayout
+                android:id="@+id/rl_add_item_picture"
+                android:layout_width="@dimen/_220sdp"
+                android:layout_height="@dimen/_220sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/new_add_item_pic_bg">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/_100sdp"
+                        android:layout_height="@dimen/_100sdp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/new_add_img_ico" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_25sdp"
+                        android:text="@string/add_picture"
+                        android:textAllCaps="true"
+                        android:fontFamily="@font/rubik_regular"
+                        android:textColor="@color/new_add_picture_txt_color"
+                        android:textSize="@dimen/textNormalSize" />
+                </LinearLayout>
+
+                <com.github.siyamed.shapeimageview.RoundedImageView
+                    android:id="@+id/iv_item_picture"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:siBorderWidth="0dp"
+                    app:siRadius="10dp"
+                    android:visibility="gone"
+                    app:siSquare="true" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/add_courier_item_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginLeft="@dimen/_40sdp"
+                android:layout_marginRight="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:background="@drawable/new_continue_btn_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/rubik_regular"
+                    android:text="@string/continueBtnTxt"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/textNormalSize" />
+
+                <RelativeLayout
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:background="@drawable/new_bg_white_circle">
+
+                    <ImageView
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/new_back_ico" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_skip"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:gravity="end|center_vertical"
+                android:layout_gravity="end"
+                android:fontFamily="@font/rubik_regular"
+                android:layout_marginBottom="@dimen/_30sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:text="@string/skip"
+                android:textColor="@color/colorBtn" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

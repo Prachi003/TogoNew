@@ -1,0 +1,11 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:innerRadius="0dp"
+    android:shape="oval">
+    <solid android:color="@color/transparent" />
+    <size
+        android:width="@dimen/_100sdp"
+        android:height="@dimen/_100sdp" />
+    <stroke
+        android:width="@dimen/_1sdp"
+        android:color="@color/new_sign_in_hint_color" />
+</shape>

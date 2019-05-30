@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.togocourier.ui.fragment.customer.NewMyPostFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mNewPstReclr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        app:layoutManager="LinearLayoutManager" />
+
+    <TextView
+        android:id="@+id/noDataTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/montserrat_light"
+        android:textColor="@color/new_gray_color"
+        android:text="@string/no_new_post_messgae"
+        android:textSize="@dimen/textNormalSize"
+        android:visibility="gone" />
+
+</FrameLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_5sdp"
+    android:layout_marginEnd="@dimen/_10sdp"
+    android:layout_marginLeft="@dimen/_35sdp"
+    android:layout_marginRight="@dimen/_10sdp"
+    android:layout_marginStart="@dimen/_35sdp"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:background="@color/colorWhite"
+    android:gravity="end"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/my_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@drawable/rounded_primary_right_chat_border"
+        android:fontFamily="@font/montserrat_regular"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/textSmallSize" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_right_image_view"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:visibility="gone">
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:id="@+id/chat_my_image_view"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/chat_image_placeholder"
+            app:siBorderColor="@color/chat_gray_color"
+            app:siBorderWidth="4dp"
+            app:siRadius="@dimen/_5sdp" />
+
+        <ProgressBar
+            android:id="@+id/img_progress_right"
+            style="@android:style/Widget.ProgressBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/time_ago_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:fontFamily="@font/montserrat_regular"
+        android:gravity="start"
+        android:maxLines="1"
+        android:textColor="@color/colorTextHint"
+        android:textSize="@dimen/item_size" />
+
+
+</LinearLayout>

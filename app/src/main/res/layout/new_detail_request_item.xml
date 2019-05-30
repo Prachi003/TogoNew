@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/_140sdp"
+    android:layout_marginBottom="@dimen/_10sdp"
+    android:layout_height="@dimen/_170sdp"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:layout_marginLeft="@dimen/_6sdp"
+        android:layout_marginRight="@dimen/_6sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        app:cardElevation="@dimen/_2sdp"
+        app:cardBackgroundColor="@color/colorWhite"
+        app:cardCornerRadius="@dimen/_10sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_4sdp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center">
+
+                    <View
+                        android:layout_width="58dp"
+                        android:layout_height="58dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/new_notification_img_border" />
+
+                    <com.github.siyamed.shapeimageview.CircularImageView
+                        android:id="@+id/itemImg"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_centerInParent="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/new_app_icon" />
+
+                    <ImageView
+                        android:id="@+id/itemChatIcon"
+                        android:layout_width="@dimen/_22sdp"
+                        android:layout_height="@dimen/_22sdp"
+                        android:layout_alignParentRight="true"
+                        android:padding="@dimen/_2sdp"
+                        app:srcCompat="@drawable/ic_new_request_chat_ico" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/itemNameTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:ellipsize="end"
+                android:fontFamily="@font/montserrat_regular"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@color/new_sign_in_text_color"
+                android:textSize="12sp" />
+
+            <!--<LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/montserrat_light"
+                    android:gravity="center"
+                    android:text="+1"
+                    android:textColor="@color/new_sign_in_text_color"
+                    android:textSize="@dimen/textSmallSize" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:background="@color/new_add_item_line_color" />
+
+                <TextView
+                    android:id="@+id/item_contact_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/montserrat_light"
+                    android:gravity="start"
+                    android:maxLines="1"
+                    android:paddingRight="@dimen/_10sdp"
+                    android:singleLine="true"
+                    android:text="@string/enter_contact_number"
+                    android:textColor="@color/new_sign_in_text_color"
+                    android:textSize="@dimen/textSmallSize" />
+
+            </LinearLayout>-->
+
+            <TextView
+                android:id="@+id/itemPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/_3sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:fontFamily="@font/montserrat_regular"
+                android:gravity="center"
+                android:textColor="@color/new_sign_in_text_color"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:id="@+id/ly_ratting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <RatingBar
+                    android:id="@+id/ratingBar"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|start"
+                    android:max="5"
+                    android:progressTint="@color/new_app_color"
+                    android:scaleX="1"
+                    android:scaleY="1"
+                    android:transformPivotX="0dp"
+                    android:transformPivotY="0dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/_2sdp"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:id="@+id/acceptLay"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_22sdp"
+                        app:srcCompat="@drawable/ic_new_request_accept_ico" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        android:maxLines="1"
+                        android:text="Accept"
+                        android:textColor="@color/new_accept_color"
+                        android:textSize="@dimen/_10sdp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/rejectLay"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_22sdp"
+                        app:srcCompat="@drawable/ic_new_request_reject_ico" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        android:maxLines="1"
+                        android:text="Reject"
+                        android:textColor="@color/new_cancel_color"
+                        android:textSize="@dimen/_10sdp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_10sdp"/>
+
+</LinearLayout>

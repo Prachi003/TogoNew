@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/_5sdp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="@dimen/_40sdp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/montserrat_medium"
+            android:layout_centerInParent="true"
+            android:text="CVV number"
+            android:textSize="16sp"
+            android:layout_height="wrap_content" />
+
+
+        <RelativeLayout
+            android:id="@+id/rl_cancel_new"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/new_bg_white_circle"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_centerInParent="true"
+                android:padding="@dimen/_4sdp"
+                app:srcCompat="@drawable/ic_close" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorBlack"
+
+        android:fontFamily="@font/montserrat_regular"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/fill_cvv_number_to_access_n_further_features"
+        android:textSize="18sp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/idCardLay"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:weightSum="6">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_sign_in_left_input_field">
+
+            <ImageView
+                android:id="@+id/idIcon"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_centerInParent="true"
+                android:padding="@dimen/_3sdp"
+                app:srcCompat="@drawable/new_list_card_ico" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="@drawable/bg_sign_in_right_input_field">
+
+            <EditText
+                android:id="@+id/edt_cvv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:fontFamily="@font/poppins_light"
+                android:hint="Cvv number"
+                android:inputType="number"
+                android:background="@null"
+                android:textColor="@color/new_sign_in_text_color"
+                android:textColorHint="@color/new_sign_in_hint_color"
+                android:textSize="@dimen/textSmallSize" />
+
+            <RelativeLayout
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/_3sdp"
+                android:background="@drawable/new_circular_bg_app_color">
+
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_centerInParent="true"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/new_attachment_ico" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btnDone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/_40sdp"
+        android:layout_marginRight="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/new_continue_btn_bg"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:text="@string/done"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/textNormalSize" />
+
+</LinearLayout>

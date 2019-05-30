@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_5sdp"
+    android:layout_marginEnd="@dimen/_35sdp"
+    android:layout_marginLeft="@dimen/_10sdp"
+    android:layout_marginRight="@dimen/_35sdp"
+    android:layout_marginStart="@dimen/_10sdp"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/other_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:background="@drawable/rounded_primary_left_chat_border"
+        android:fontFamily="@font/montserrat_regular"
+        android:gravity="center|start"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_12sdp" />
+
+    <RelativeLayout
+        android:id="@+id/rl_left_image_view"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:visibility="gone">
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:id="@+id/chat_other_image_view"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/chat_image_placeholder"
+            app:siBorderColor="@color/new_chat_other_bg_color"
+            app:siBorderWidth="4dp"
+            app:siRadius="@dimen/_5sdp"
+            android:layout_alignParentStart="true" />
+
+        <ProgressBar
+            android:id="@+id/img_progress_left"
+            style="@android:style/Widget.ProgressBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/time_ago"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="@color/new_chat_other_bg_color"
+        android:textSize="@dimen/_10sdp" />
+
+</LinearLayout>

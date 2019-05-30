@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/_10sdp"
+    android:layout_marginStart="@dimen/_10sdp"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:elevation="5dp"
+            app:cardBackgroundColor="@color/colorWhite"
+            app:cardCornerRadius="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="60dp"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="@string/change_status"
+                    android:textColor="@color/new_app_color"
+                    android:textSize="@dimen/textMediamSize" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_picked_status"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_35sdp">
+
+                        <RelativeLayout
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_35sdp">
+
+                            <ImageView
+                                android:id="@+id/iv_item_picked_bg"
+                                android:layout_width="@dimen/_35sdp"
+                                android:layout_height="@dimen/_35sdp"
+                                android:src="@drawable/new_active_courier_status_bg" />
+
+                            <ImageView
+                                android:id="@+id/iv_item_picked"
+                                android:layout_width="@dimen/_20sdp"
+                                android:layout_height="@dimen/_20sdp"
+                                android:layout_centerInParent="true"
+                                app:srcCompat="@drawable/ic_active_picked_status" />
+
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/_50sdp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tv_item_picked"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:fontFamily="@font/montserrat_medium"
+                                android:gravity="center"
+                                android:text="@string/item_picked"
+                                android:textColor="@color/colorTextHint"
+                                android:textSize="@dimen/_13sdp" />
+
+                            <TextView
+                                android:id="@+id/tv_item_picked_date_time"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:fontFamily="@font/montserrat_medium"
+                                android:gravity="center"
+                                android:text="@string/item_picked"
+                                android:textColor="@color/new_active_status_color"
+                                android:textSize="@dimen/_11sdp"
+                                android:visibility="gone" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/iv_item_picked_tick"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/ic_status_tick_ico" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_marginLeft="@dimen/_17sdp"
+                        android:background="@color/new_status_line_color" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl_out_for_delivery_status"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_35sdp">
+
+                        <RelativeLayout
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_35sdp">
+
+                            <ImageView
+                                android:id="@+id/iv_out_for_delivery_bg"
+                                android:layout_width="@dimen/_35sdp"
+                                android:layout_height="@dimen/_35sdp"
+                                android:background="@drawable/new_inactive_courier_status_bg" />
+
+                            <ImageView
+                                android:id="@+id/iv_out_for_delivery"
+                                android:layout_width="@dimen/_20sdp"
+                                android:layout_height="@dimen/_20sdp"
+                                android:layout_centerInParent="true"
+                                app:srcCompat="@drawable/ic_inactive_out_delivey_status" />
+
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/_50sdp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tv_out_for_delivery"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:fontFamily="@font/montserrat_medium"
+                                android:gravity="center"
+                                android:text="@string/out_for_delivery"
+                                android:textColor="@color/colorTextHint"
+                                android:textSize="@dimen/_13sdp" />
+
+                            <TextView
+                                android:id="@+id/tv_out_for_delivery_date_time"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:fontFamily="@font/montserrat_medium"
+                                android:gravity="center"
+                                android:text="@string/item_picked"
+                                android:textColor="@color/new_active_status_color"
+                                android:textSize="@dimen/_11sdp"
+                                android:visibility="gone" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/iv_out_for_delivery_tick"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/ic_status_tick_ico" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_marginLeft="@dimen/_17sdp"
+                        android:background="@color/new_status_line_color" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl_delivered_status"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_35sdp">
+
+                        <RelativeLayout
+                            android:layout_width="@dimen/_35sdp"
+                            android:layout_height="@dimen/_35sdp">
+
+                            <ImageView
+                                android:id="@+id/iv_delivered_bg"
+                                android:layout_width="@dimen/_35sdp"
+                                android:layout_height="@dimen/_35sdp"
+                                android:background="@drawable/new_inactive_courier_status_bg" />
+
+                            <ImageView
+                                android:id="@+id/iv_delivered"
+                                android:layout_width="@dimen/_20sdp"
+                                android:layout_height="@dimen/_20sdp"
+                                android:layout_centerInParent="true"
+                                app:srcCompat="@drawable/ic_inactive_delivered_status" />
+
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/_50sdp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tv_delivered"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:fontFamily="@font/montserrat_medium"
+                                android:gravity="center"
+                                android:text="@string/delivered"
+                                android:textColor="@color/colorTextHint"
+                                android:textSize="@dimen/_13sdp" />
+
+                            <TextView
+                                android:id="@+id/tv_delivered_date_time"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:fontFamily="@font/montserrat_medium"
+                                android:gravity="center"
+                                android:textColor="@color/new_active_status_color"
+                                android:textSize="@dimen/_11sdp"
+                                android:visibility="gone" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/iv_delivered_tick"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/ic_status_tick_ico" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/doneBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/_30sdp"
+                    android:layout_marginRight="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_30sdp"
+                    android:background="@drawable/new_continue_btn_bg"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
+                    android:text="@string/done"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/textNormalSize" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_20sdp" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/new_bg_white_circle"
+            android:elevation="2dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"
+                android:padding="10dp"
+                app:srcCompat="@drawable/new_status_ico" />
+        </RelativeLayout>
+
+        <!--<ProgressBar
+            android:id="@+id/statusProgressBar"
+            style="@style/AlertDialog.AppCompat"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />-->
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_status_cancel"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/new_bg_white_circle">
+
+        <ImageView
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_centerInParent="true"
+            android:padding="@dimen/_7sdp"
+            app:srcCompat="@drawable/ic_close" />
+    </RelativeLayout>
+
+</LinearLayout>
